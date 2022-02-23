@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("C:/Users/1/Desktop/CSS565/Train.txt", sep="|",
+df = pd.read_csv("*******/Train.txt", sep="|",
                  names=["duration", "protocoltype", "service", "flag", "srcbytes", "dstbytes", "land", "wrongfragment",
                         "urgent", "hot", "numfailedlogins", "loggedin", "numcompromised", "rootshell", "suattempted",
                         "numroot", "numfilecreations", "numshells", "numaccessfiles", "numoutboundcmds", "ishostlogin",
